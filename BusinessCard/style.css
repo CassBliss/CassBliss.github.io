@@ -20,6 +20,15 @@ html {
     border: 0.2em solid black;
     border-radius: 1.5em;
 }
+
+#secondCard{
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: palevioletred;
+    border: 0.2em solid blue;
+    border-radius: 1.5em;
+}
 /*Styles specific to header and footer*/
 
 .card header {
@@ -61,6 +70,11 @@ article {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.2), rgba(0,0,0,0.2));
 }
 
+#secondInfo{
+    font: Times;
+    color: black;
+}
+
 h2{
     font-size: 2em;
     height: 2em;
@@ -78,4 +92,6 @@ article p{
     padding: 2em;
     color: white;
 }
+
+
 
