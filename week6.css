@@ -1,0 +1,21 @@
+.box {
+    border:2px dashed red;
+    
+}
+
+.text {
+    border: 5px dashed blue;
+    padding: 10vw;
+    background: lightblue;
+
+    /*margins push elements away from other elements*/
+    margin: 25%;
+}
+
+/*ems and rems
+/*rems look at the root size  (in the html block) and sized based on that
+/*view width and height: controlled by meta tag: sets the width to device width to 100 units
+and therefore can work in proportions 
+/*percentages: percent of the space available
+
+/*North, East, South, West for pixel setting*/
