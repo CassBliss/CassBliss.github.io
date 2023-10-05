@@ -21,8 +21,8 @@
     background-repeat: no-repeat;
     background-position: top, bottom;
     background-color: white;
-    border-top: 1mm red;
-    border-bottom: 1mm red;
+    border-top: 1mm red solid;
+    border-bottom: 1mm red solid;
     
     
   }
@@ -47,7 +47,8 @@
     text-shadow: 1px 1px 1px black;
 
     background-image: url(../img/logo.png);
-
+    box-shadow:3px 3px 3px black;
+    border-radius: 64px;
 
    
   }
