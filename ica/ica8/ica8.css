@@ -20,12 +20,17 @@ body{
     from{
         margin-left:65%;
     }
+
     50% {
-        font-size: 5vw;
-        width: 130%
+        font-size: 2vw;
+        width: 500px;
+        margin-top:25%;
+        padding:10%;
     }
+
     to{
         margin-left: 0%;
+        margin-bottom: 50%;
 
     }
 }
