@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 8vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(35, 35, 83);
+    color: white;
+}
+
+.intro{
+    font-size: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:10px;
+    margin:5px;
+    background-color: rgb(35, 35, 83);
+    color: whitesmoke;
+}
+
+.paragraph{
+    font-size: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin:5px;
+    background-color:rgb(218, 110, 110); 
+}
+/*Media query for larger screens*/
+@media screen and (min-width:400px){
+
+
+}
+/*Media query for iphone small screen*/
+@media screen and (max-width:400px){
+
+}
+
+
+
