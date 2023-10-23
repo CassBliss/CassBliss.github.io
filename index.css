@@ -1,33 +1,79 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
 }
 
 .title{
-    font-size: 8vw;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 6vw;
+    font-size: 3vw;
+    font-family: 'Quicksand', sans-serif;
     padding: 10px;
     margin: 5px;
-    background-color: rgb(35, 35, 83);
-    color: white;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: row;
 }
 
 .intro{
-    font-size: 3vw;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding:10px;
-    margin:5px;
-    background-color: rgb(35, 35, 83);
-    color: whitesmoke;
+    width: 90vw;
+    height: 5vw;
+    font-size: 2vw;
+    font-family:'Quicksand',sans-serif;
+    margin:1px;
+    padding:1vw;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
 }
 
-.paragraph{
-    font-size: 2.5vw;
-    font-family: Arial, Helvetica, sans-serif;
-    padding:10px;
-    margin:5px;
-    background-color:rgb(218, 110, 110); 
+.schedule {
+
+    width: 56vw;
+    height: 100vw;
+    padding-top: 10vw;
+
 }
+
+.generalInfo{
+
+    width: 30vw;
+    height: 80vw;
+    font-size: 1.5vw;
+    font-family: 'Quicksand',sans-serif;
+    padding:10px;
+    margin:8px;
+    background-color:rgb(255, 255, 255); 
+    color:black;
+    align-items: left;
+
+}
+
+.showInfo
+{
+    width:52vw;
+    height:10;
+    font-family: 'quicksand',sans-serif;
+    background-color:rgb(255, 255, 255);
+    font-size: 1vw;
+    font-family: 'Quicksand',sans-serif;
+    padding:5px;
+    margin:5px;
+    color:black;
+    align-items: left;
+}
+
 /*Media query for larger screens*/
 @media screen and (min-width:400px){
 
