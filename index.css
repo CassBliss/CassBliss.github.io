@@ -26,53 +26,147 @@ body{
 }
 
 .intro{
-    width: 90vw;
+    width: 80vw;
     height: 5vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family:'Quicksand',sans-serif;
-    margin:1px;
-    padding:1vw;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    margin:3vw;
+    padding:3vw;
+    color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
+
 }
 
 .schedule {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding:1vw;
+    /*background-image: url(../img/MusicBackground.png);
+    background-repeat: no-repeat;*/
 
-    width: 56vw;
-    height: 100vw;
-    padding-top: 10vw;
-
-}
-
-.generalInfo{
-
-    width: 30vw;
-    height: 80vw;
-    font-size: 1.5vw;
-    font-family: 'Quicksand',sans-serif;
-    padding:10px;
-    margin:8px;
-    background-color:rgb(255, 255, 255); 
-    color:black;
-    align-items: left;
 
 }
+
 
 .showInfo
 {
-    width:52vw;
-    height:10;
-    font-family: 'quicksand',sans-serif;
-    background-color:rgb(255, 255, 255);
+    width:10vw;
+    height:10vw;
     font-size: 1vw;
     font-family: 'Quicksand',sans-serif;
-    padding:5px;
-    margin:5px;
-    color:black;
-    align-items: left;
+    padding:5vw;
+    margin:5vw;
+    color:rgb(255, 255, 255);
+    background-image: url(../img/whiteNote.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
+
+.showInfo img {
+     width:5vw;
+     height:5vw;
+}
+
+.showInfo p {
+    position: absolute;
+    transform: translate(-3vw,7.45vw);
+    color:rgb(0, 0, 0);
+    font-family: 'Quicksand',sans-serif;
+    font-size: 2vw;
+}
+
+.mainContent .schedule .showInfo .artist {
+    position: absolute;
+    width: 7vw;
+    transform: rotate(15deg) translate(6.5vw,2vw);
+    color:rgb(255, 255, 255);
+    font-family: 'Quicksand',sans-serif;
+    font-size: 2vw;
+}
+
+.click {
+    position: absolute;
+    transform:rotate(22deg) translate(5vw,-5.5vw);
+    color: rgb(0, 0, 0);
+}
+
+
+/*Transitions and animations*/
+
+.hide {
+    display:none;
+    width: 80vw;
+    height:8vw;
+    margin:2vw;
+    padding:2vw;
+    font-size:3vw;
+
+}
+
+/*pseudo-class of hover*/
+.title:hover + .hide {
+    display: block;
+    color:rgb(252, 252, 252);
+    font-size: 20px;
+}
+
+
+
+/*TOOLTIP for Show Info*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+visibility: hidden;
+width:30vw;
+height:auto;
+font-size: 1.7vw;
+background-color: rgb(255, 0, 0);
+color: #000000;
+border-radius: 6px;
+padding:1vw;
+
+/* Position the tooltip */
+position: relative;
+z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+
+
+/*animated notes*/
+.wave{
+    animation-duration: 10s;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+/*need to define keyframes for animation to work*/
+@keyframes rotate {
+    /*define a series of points for this slide-in animation*/
+    
+    
+    from {
+        transform: rotate(-25deg);
+    }
+
+    to {
+        transform: rotate(25deg);
+    }
+}
+
+
+
+
 
 /*Media query for larger screens*/
 @media screen and (min-width:400px){
@@ -83,6 +177,3 @@ body{
 @media screen and (max-width:400px){
 
 }
-
-
-
