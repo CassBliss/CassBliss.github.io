@@ -168,15 +168,21 @@ visibility: visible;
 }
 
 
-
+/*Media query for iphone small screen*/
+@media screen and (max-width:400px){
+    .schedule {
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+        /*background-image: url(../img/MusicBackground.png);
+        background-repeat: no-repeat;*/
+    
+    
+    }
+}
 
 
 /*Media query for larger screens*/
 @media screen and (min-width:400px){
 
-
-}
-/*Media query for iphone small screen*/
-@media screen and (max-width:400px){
 
 }
