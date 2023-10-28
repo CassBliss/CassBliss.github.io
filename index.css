@@ -102,7 +102,8 @@ body{
     height:8vw;
     margin:2vw;
     padding:2vw;
-    font-size:3vw;
+    font-size:1.5vw;
+    font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -126,7 +127,7 @@ visibility: hidden;
 width:30vw;
 height:auto;
 font-size: 1.7vw;
-background-color: rgb(255, 0, 0);
+background-color: rgb(224, 212, 39);
 color: #000000;
 border-radius: 6px;
 padding:1vw;
@@ -134,6 +135,8 @@ padding:1vw;
 /* Position the tooltip */
 position: relative;
 z-index: 1;
+top:-40px;
+left: -40px;
 }
 
 .tooltip:hover .tooltiptext {
