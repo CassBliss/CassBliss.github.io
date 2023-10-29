@@ -7,8 +7,8 @@ body{
 }
 
 .title{
-    justify-content: center;
-    align-items: center;
+    
+    text-align: center;
     width: 70vw;
     height: 6vw;
     font-size: 3vw;
@@ -23,6 +23,7 @@ body{
 .mainContent{
     display: flex;
     flex-direction: row;
+    
 }
 
 .intro{
@@ -35,6 +36,7 @@ body{
     color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 }
 
@@ -104,6 +106,7 @@ body{
     padding:2vw;
     font-size:1.5vw;
     font-family: 'Quicksand', sans-serif;
+    text-align: center;
 
 }
 
@@ -112,6 +115,7 @@ body{
     display: block;
     color:rgb(252, 252, 252);
     font-size: 20px;
+    text-align: center;
 }
 
 

@@ -4,4 +4,60 @@
     font-family: 'Quicksand',sans-serif;
  }
 
- 
+ .title {
+    font-size: 5vw;
+    align-items: center;
+    text-align: center;
+ }
+
+ .date {
+    text-align: center;
+    margin-left:35vw;
+    margin-right:35vw;
+    margin-top: 1vw;
+    margin-bottom: 5vw;
+    background-color: rgb(219, 219, 69, .7);
+    color: black;
+    font-size: 1.3vw;
+    border-radius: 50px;
+ }
+
+ .description {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+ }
+
+.flex {
+    display: flex;
+    flex-direction:row;
+    margin-top: 5vw;
+}
+
+ .artists {
+    text-align: center;
+    width:45vw;
+    height:auto;
+    background-color:rgb(219, 219, 69, 0.7);
+    color: black;
+    font-size: 1.2vw;
+    padding: 1vw;
+    margin-left:15vw;
+    margin-right:5vw;
+ }
+
+ .repertoire {
+    text-align: center;
+    width:70vw;
+    height: auto;
+    background-color:rgb(219, 219, 69, 0.7);
+    color: black;
+    font-size: 1.2vw;
+    padding: 1vw;
+    margin:1vw;
+    margin-left:1vw;
+    margin-right:5vw;
+    padding-bottom: 1vw;
+ }
+
