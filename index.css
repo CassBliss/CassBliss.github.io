@@ -138,9 +138,9 @@ h1 {
   
 .tooltip .tooltiptext {
 visibility: hidden;
-width:30vw;
+width:22vw;
 height:auto;
-font-size: 1.7vw;
+font-size: 1.5vw;
 background-color: rgb(224, 212, 39);
 color: #000000;
 border-radius: 6px;
@@ -149,8 +149,8 @@ padding:1vw;
 /* Position the tooltip */
 position: relative;
 z-index: 1;
-top:-40px;
-left: -40px;
+top:-80px;
+left: -50px;
 }
 
 .tooltip:hover .tooltiptext {
