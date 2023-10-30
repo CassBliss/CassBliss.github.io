@@ -4,6 +4,8 @@ body{
     background-color: rgb(0, 0, 0);
     align-items: center;
     justify-content: center;
+    margin-left: 7vw;
+    margin-right: 7vw;
 }
 
 .title{
@@ -65,7 +67,8 @@ h1 {
     font-size: 1vw;
     font-family: 'Quicksand',sans-serif;
     padding:5vw;
-    margin:5vw;
+    margin:4vw;
+    margin-bottom: 1vw;
     color:rgb(255, 255, 255);
     background-image: url(../img/whiteNote.png);
     background-position: center;
