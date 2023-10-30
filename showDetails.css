@@ -5,7 +5,7 @@
  }
 
  .title {
-    font-size: 5vw;
+    font-size: 4vw;
     align-items: center;
     text-align: center;
  }
@@ -25,8 +25,8 @@
  .description {
     text-align: center;
     font-size: 1.5vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
  }
 
 .flex {
@@ -61,3 +61,13 @@
     padding-bottom: 1vw;
  }
 
+ @media screen and (max-width:400px){
+   .flex {
+       flex-direction: column;
+       /*background-image: url(../img/MusicBackground.png);
+       background-repeat: no-repeat;*/
+       justify-content: center;
+       margin-left: 10vw;
+   
+   }
+}

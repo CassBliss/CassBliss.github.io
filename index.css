@@ -14,11 +14,12 @@ body{
     font-size: 3vw;
     font-family: 'Quicksand', sans-serif;
     padding: 10px;
-    margin: 5px;
+    margin-bottom: 0.3vw;
     color: rgb(255, 255, 255);
     
-    
 }
+
+
 
 .mainContent{
     display: flex;
@@ -40,10 +41,15 @@ body{
 
 }
 
+h1 {
+    color:rgb(197, 207, 55);
+    font-size: 3vw;
+    font-family: 'Quicksand',sans-serif;
+}
 .schedule {
     display: grid;
     grid-template-columns: 0.5fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     padding:1vw;
     /*background-image: url(../img/MusicBackground.png);
     background-repeat: no-repeat;*/
@@ -102,11 +108,14 @@ body{
     display:none;
     width: 80vw;
     height:8vw;
-    margin:2vw;
+    margin:1vw;
     padding:2vw;
     font-size:1.5vw;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    transition-property:none;
+    transition-duration: 3s;
+    transition-delay: 0.1s;
 
 }
 
@@ -114,8 +123,9 @@ body{
 .title:hover + .hide {
     display: block;
     color:rgb(252, 252, 252);
-    font-size: 20px;
+    font-size: 2vw;
     text-align: center;
+    
 }
 
 
@@ -177,16 +187,13 @@ visibility: visible;
     .schedule {
         display: grid;
         grid-template-columns: 1fr  1fr;
+        grid-template-rows: 1fr,1fr;
         /*background-image: url(../img/MusicBackground.png);
         background-repeat: no-repeat;*/
-    
+        
     
     }
 }
 
 
-/*Media query for larger screens*/
-@media screen and (min-width:400px){
 
-
-}
