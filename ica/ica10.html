@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ica10.css">
+</head>
+<body>
+    <button type="button"> This button could be yours </button>
+    
+    <button id= "press" type="button"> PRESS ME </button>
+
+    //<div id="other" >Press Me</div>
+
+    
+
+    <script>
+        //variables defined using 'const' or 'let': where let can change and const cannot
+        const button = document.querySelector("button");//telling it to look inside the document for a button element
+
+        const press = document.getElementById("press");//query selector only selects first incident of what it's looking for
+
+        const other = document.getElementById("other");
+        //now need to look for an event: a click
+        button.addEventListener('click', updateName);//looks for event we need and what to do when the event happens
+        press.addEventListener('click',updateName);
+        other.addEventListener('click',updateName);
+        //fuction definition 
+        function updateName(){
+
+            let name = prompt("Enter a new name") //lets the user define the variable name via dialog box
+
+            //method for debugging
+            console.log("Got to here");
+            console.log("name is now: " + name);    
+
+            button.textContent = ` ${name}`;//whatever the text content is will be changed to name now defined by user and concatenated into the string. 
+            
+            //changes 
+            div.innerHTML = `<h1>OUCH</h1>`;
+        }
+    </script>
+
+</body>
+</html>
