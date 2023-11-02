@@ -1,0 +1,59 @@
+
+html {
+    background-color: black;
+}
+
+body {
+    margin-left: 35vw;
+    margin-right: 30vw;
+    margin-top: 10vw;
+font-family: helvetica, sans-serif;
+width: 350px;
+
+}
+
+label {
+    font-weight: bold;
+    color: aqua;
+
+}
+
+div {
+    
+    padding-bottom: 20px;
+    background-color: blue;
+    padding: 1vw;
+}
+
+input[type="text"] {
+
+
+    padding: 5px;
+    width: 150px;
+    background-color:yellow ;
+}
+
+p {
+    width: 30vw;
+    text-align: center;
+    background: blue;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1vw;
+    visibility: hidden;
+    align-items: center;
+    margin-left: -4vw;
+}
+
+
+.randomize {
+    margin-left: 5.5vw;
+}
+
+#customname {
+    margin-left: 5vw;
+}
+
+label {
+    margin-left: 5vw;
+}
