@@ -16,6 +16,7 @@ else {
 
 const btn = document.querySelector("button");
 
+
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d"); // tells the thing what it is
 
@@ -29,7 +30,7 @@ function draw() {
     console.log("button has been clicked");
     ctx.clearRect(0,0, canvas.width,canvas.height);
     
-    for(let i=0;i<1000;i++){
+    for(let i=0; i < 1000; i++){
         ctx.beginPath();
         let red = random(255);
         let green = random(255);
