@@ -41,7 +41,7 @@ function draw() {
         ctx.arc( random(canvas.width), random(canvas.height),random(100),0, 2*Math.PI);
         ctx.fill();
     }
-
+}
     /*
     for(let i=0;i<1000;i++){
         ctx.beginPath();
@@ -51,7 +51,7 @@ function draw() {
         ctx.fill();
     }
     */
-}
+
 
 
 document.addEventListener("DOMContentLoaded", ()=> {
