@@ -13,7 +13,7 @@ const filenames = ["images/pic1.jpg","images/pic2.jpg","images/pic3.jpg","images
 const altID= ["human eye","rock","flowers","glyphs","butterfly"]
 
 /* Looping through images */
-for(let i=0; i < 5; i++){
+for(let i=0; i <= 4; i++){
     //
     const newImage = document.createElement('img');
     newImage.setAttribute('src', filenames[i]);
@@ -43,10 +43,17 @@ for(let i=0; i < 5; i++){
 
 function darken(){
 
-    if(btn.className == "dark")
-    btn.setAttribute("class", "light");
-    btn.textContent = "Lighten";
-    overlay.style.backgroundColor = xxx;
+    if(btn.className == "dark"){
+        btn.setAttribute("class", "light");
+        btn.textContent = "Lighten";
+        overlay.style.backgroundColor = xxx;
+    }
+    else{
+        btn.setAttribute("class", "dark");
+        btn.textContent = "Darken";
+        overlay.style.backgroundColor = xxx;
+    }
+    
 };
 
 
