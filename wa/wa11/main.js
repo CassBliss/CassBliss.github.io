@@ -15,7 +15,7 @@ const altID= ["human eye","rock","flowers","glyphs","butterfly"]
 /* Looping through images */
 for(let i=0; i <= 4; i++){
     //
-    const newImage = document.createElement('img');
+    let newImage = document.createElement('img');
     newImage.setAttribute('src', filenames[i]);
     newImage.setAttribute('alt', altID[i]);
     thumbBar.appendChild(newImage);
@@ -29,7 +29,7 @@ for(let i=0; i <= 4; i++){
         document.getElementsByClassName("displayed-img").src = source;
         document.getElementsByClassName("displayed-img").alt = alternative;
         
-        const oldImage = document.createElement('img');
+        let oldImage = document.createElement('img');
         
         oldImage.setAttribute('src',tempSrc);
         oldImage.setAttribute('alt',tempAlt);
@@ -46,12 +46,12 @@ function darken(){
     if(btn.className == "dark"){
         btn.setAttribute("class", "light");
         btn.textContent = "Lighten";
-        overlay.style.backgroundColor = xxx;
+        overlay.style.backgroundColor = "rgba(0,0,0,0.5)";
     }
     else{
         btn.setAttribute("class", "dark");
         btn.textContent = "Darken";
-        overlay.style.backgroundColor = xxx;
+        overlay.style.backgroundColor = "rgba(0,0,0,0)";
     }
     
 };

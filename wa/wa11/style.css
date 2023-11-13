@@ -21,14 +21,14 @@ body {
   left: 0;
   width: 640px;
   height: 480px;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(209, 22, 22, 0);
 }
 
 button {
   border: 0;
-  background: rgba(150,150,150,0.6);
-  text-shadow: 1px 1px 1px white;
-  border: 1px solid #999;
+  background: rgba(154, 97, 97, 0.6);
+  text-shadow: 1px 1px 1px rgb(195, 32, 32);
+  border: 1px solid #000000;
   position: absolute;
   cursor: pointer;
   top: 2px;
