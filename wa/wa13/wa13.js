@@ -69,7 +69,7 @@ function raiseSalary(percentageDecimal){
         if(company.companyInfo[2].employeesArr.employees[i].raiseEligible == true)
         {
             //update their salary based on their percentage
-            company.companyInfo[2].employeesArr.employees[i].salary += company.companyInfo[2].employeesArr.employees[i].salary * percentageDecimal;
+            company.companyInfo[2].employeesArr.employees[i].salary += (company.companyInfo[2].employeesArr.employees[i].salary * percentageDecimal);
         }
     }
 
