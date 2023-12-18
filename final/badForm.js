@@ -33,10 +33,12 @@ function displayNum1(){
     out1.innerHTML = (number1.value + 2) * 4 ;
     console.log(number1);
     
+
 }
 
 function displayNum2(){
     out2.innerHTML = (number2.value + 2) * 4;
+
 }
 
 function displayNum3(){
