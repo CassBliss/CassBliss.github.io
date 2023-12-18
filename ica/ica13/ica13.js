@@ -82,7 +82,7 @@ class Ball {
 
 const balls = [];
 
-while (balls.length < 50) {
+while (balls.length < 500) {
   const size = random(1, 50);
   const ball = new Ball(
     // ball position always drawn at least one ball width
